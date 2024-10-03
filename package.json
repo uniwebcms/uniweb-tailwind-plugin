@@ -1,5 +1,5 @@
 {
-  "name": "uniweb-tailwind-plugin",
+  "name": "@uniwebcms/uniweb-tailwind-plugin",
   "version": "1.0.1",
   "packageManager": "yarn@4.5.0",
   "description": "Uniweb design system plugin for Tailwind CSS",
