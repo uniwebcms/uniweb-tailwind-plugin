@@ -94,6 +94,9 @@ Control how text wraps to create more balanced and visually appealing blocks of 
 
 Why use text wrapping utilities? They help create more aesthetically pleasing layouts and improve readability, especially for headings and short text blocks.
 
+> [!IMPORTANT]
+> The `text-balance` class in heading elements (H1, H2, ...) is not needed because this plugin sets all headings to use that wrapping mode by default.
+
 ### Color Utilities
 
 The plugin extends Tailwind's color system with additional utilities for creating harmonious color palettes.
@@ -134,7 +137,7 @@ To use both plugins together:
 3. Use them together in your HTML:
    ```html
    <article class="prose prose-lg">
-     <h1 class="fluid-text-4xl text-balance">My Fluid, Balanced Heading</h1>
+     <h1 class="fluid-text-4xl">My Fluid, Balanced Heading</h1>
      <p class="dynamic-leading">
        This paragraph has the Tailwind Typography styles with our dynamic
        leading.
@@ -150,7 +153,7 @@ The Uniweb plugin complements Tailwind Typography by providing additional contro
 
 ```html
 <header class="mb-8">
-  <h1 class="fluid-text-4xl text-balance dynamic-leading mb-2">
+  <h1 class="fluid-text-4xl dynamic-leading mb-2">
     The Future of Web Design: A New Paradigm
   </h1>
   <p class="fluid-text-lg text-pretty dynamic-tracking text-neutral-600">
@@ -174,7 +177,7 @@ The Uniweb plugin complements Tailwind Typography by providing additional contro
 
 ```html
 <div class="bg-neutral-100 p-6 rounded-xl shadow-md">
-  <h3 class="fluid-text-xl text-balance dynamic-leading text-primary-800 mb-2">
+  <h3 class="fluid-text-xl dynamic-leading text-primary-800 mb-2">
     Seamless Integration
   </h3>
   <p class="fluid-text-base text-pretty dynamic-tracking text-neutral-600">
@@ -278,7 +281,7 @@ Our Uniweb plugin, on the other hand, provides utilities for fine-tuning typogra
    Use our utilities freely for UI elements, headings, or any text outside the main content area:
 
    ```html
-   <h2 class="fluid-text-2xl dynamic-leading text-balance">Section Header</h2>
+   <h2 class="fluid-text-2xl dynamic-leading">Section Header</h2>
    <p class="fluid-text-base text-pretty">
      Introductory text with pretty wrapping.
    </p>
