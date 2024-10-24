@@ -10,12 +10,17 @@ module.exports = {
     "text-color",
     "heading-color",
     "link-color",
+    "link-active-color",
     "link-hover-color",
     "icon-color",
     "btn-color",
     "btn-text-color",
     "btn-hover-color",
     "btn-hover-text-color",
+    "btn-alt-color",
+    "btn-alt-text-color",
+    "btn-alt-hover-color",
+    "btn-alt-hover-text-color"
   ]),
   // Add additional custom colors here. For example:
   // uniweb: {
