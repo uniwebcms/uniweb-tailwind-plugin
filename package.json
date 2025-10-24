@@ -1,6 +1,6 @@
 {
   "name": "@uniwebcms/uniweb-tailwind-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "packageManager": "yarn@4.5.0",
   "description": "Uniweb design system plugin for Tailwind CSS",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
     "plugin",
     "uniweb"
   ],
-  "author": "Your Name",
+  "author": "Proximify",
   "license": "MIT",
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
